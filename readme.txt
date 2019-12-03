@@ -18,5 +18,5 @@ OPCIONES DE REDUCCION DEL ESPACIO DE CARACTERES ASCII (si no se especifica ningu
 
 
 ejemplo de ejecucion: ./Cracker -f ./hola.gpg -size 4 -threads 4 -lower
-ejemplo de compilacion: g++ -o Cracker cracker.cpp -pthread
+ejemplo de compilacion: g++ -o Cracker cracker.cpp -lpthread
 
